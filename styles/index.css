@@ -1,0 +1,19 @@
+.w-15{
+    width: 15%;
+}
+
+.h-15{
+    height: 15%;
+}
+
+.fw-bold-500{
+    font-weight: 500;
+}
+
+.fw-bold-600{
+    font-weight: 600;
+}
+
+.bg-fill-white{
+    fill: white;
+}
