@@ -36,7 +36,7 @@ function home():string{
                             <li class="fs-5"> 
                                 <span class="fw-bold-500 fs-4"> Número de telefono: </span> 
                                 <br>
-                                 3921279642
+                                 <a class="">3921279642</a>
                             </li>
                         </ul>
                     </div>

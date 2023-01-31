@@ -2,8 +2,8 @@
     width: 15%;
 }
 
-.h-15{
-    height: 15%;
+.h-12{
+    height: 12%;
 }
 
 .fw-bold-500{
@@ -16,4 +16,21 @@
 
 .bg-fill-white{
     fill: white;
+}
+
+.animation-contact{
+    transition: all 0.4s ease;  
+}
+
+.animation-contact:hover{
+    transform: translateY(-4px);
+}
+
+.animate-contact-img{
+    width: 75%;
+    transition: all 0.4s ease;
+}
+
+.animation-contact:hover .animate-contact-img{
+    width: 80%;
 }
