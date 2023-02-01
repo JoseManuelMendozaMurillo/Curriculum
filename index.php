@@ -1,33 +1,25 @@
 <?php
 
-require_once("./views/layout.php");
-require_once("./views/home.php");
+require_once "./views/layout.php";
+require_once "./views/sobreMi.php";
 
 $page = "home";
-if(isset($_GET["page"]) && !empty($_GET["page"])){
+if (isset($_GET["page"]) && !empty($_GET["page"])) {
     $page = $_GET["page"];
 }
 
 switch ($page) {
-    case 'home':
+    case 'sobreMi':
         echo layoutHeader();
         echo layoutNavbar();
-        echo home();
-        echo layoutFooter();
-        break;
-    
-    
-    case "sobreMi":
-        echo layoutHeader();
-        echo layoutNavbar();
-        echo home();
+        echo sobreMi();
         echo layoutFooter();
         break;
 
     case "experiencia":
         echo layoutHeader();
         echo layoutNavbar();
-        echo home();
+        echo sobreMi();
         echo layoutFooter();
         break;
 
@@ -35,5 +27,3 @@ switch ($page) {
         echo "404";
         break;
 }
-
-?>
